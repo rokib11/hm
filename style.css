@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Lovestory{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+    text-align: center;
+    pointer-events: none;
+    display: none;
+}
+.Lovestory.activeInfo{
+    pointer-events: auto;
+    display: block;
+}
+.section{
+    padding: 10px;
+}
+.text{
+    font-size: 20px;
+    padding: 20px;
+}
+.option  span{
+    font-size: 20px;
+}
+.text{
+    font-size: 24px;
+    font-weight: bold;
+}
+ .text{
+    margin-top: 80px;
+}
+.btn{
+    border: none;
+    outline: none;
+    margin-top: 100px;
+    background-color: #f9004d;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    color: black;
+}
+.startlovesstory{
+    width: 650px;
+    height: 400px;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 30px;
+    position: absolute;
+    box-shadow:rgba(0 0 0/10%)0 10px 50px ;
+    text-align: center;
+}
+.ShowNow{
+    border: none;
+    outline: none;
+    margin-top: 180px;
+    background-color: #f9004d;
+    padding: 15px 25px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+.ShowNow:hover{
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    color: black;
+}
